@@ -1,0 +1,68 @@
+@import '../config/variables';
+
+/*Header */
+#logo{
+    
+    float: left;
+    width: 20%;
+
+}
+
+#wrapper-menu{
+
+    float: right;
+    width: 70%;
+    position: $position-r;
+}
+
+#menu-email{
+
+    font-size: 13px;
+    color: #999898;
+    text-decoration: none;
+    position: $position-a;
+    top: 0;
+    right: 0;
+}
+
+#menu-list{
+
+    list-style: none;
+    margin: 45px 0 0 0;
+    padding: 0;
+}
+
+#menu-list {
+
+
+    li { 
+
+        float: left; 
+    
+    }
+
+    
+    li + li{
+
+        margin-left: 62.5px;
+    }
+
+    a{
+
+    font-size: $little-size;
+    font-weight: bold;
+    color: $link-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+}
+
+.nav-link {
+    display: none; 
+}
+
+
+#slider img{
+    max-width: 100%;
+    width: 100%;
+}

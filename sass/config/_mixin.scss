@@ -1,0 +1,86 @@
+@mixin menu-list {
+
+    font-size: 12px;
+    font-weight: bold;
+    color: $link-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+@mixin cuerpo {
+
+    font-family: $font-body;
+    margin: 0;
+    border-top: 17px solid $title-color;
+    
+}
+
+@mixin title-h2 {
+
+    font-size: $Big-size;
+    padding-left: 30px;
+    background-position: 0 7px;
+    
+}
+
+@mixin title-h3{
+
+    font-size: $little-size ;
+    padding-left: 23px;
+    background-size: 8px;
+    background-position: 0 5px;
+}
+
+@mixin titles {
+    
+    text-transform: uppercase;
+    color: $title-color;
+    padding-bottom: 12px;
+    background-image: url('../img/arrow.png');
+    background-repeat: no-repeat;
+}
+
+@mixin paragraph {
+    color: $text-color;
+    font-size: $little-size;
+    line-height: 15px;
+}
+
+@mixin wrap {
+    max-width: 100%;
+    width: 960px;
+    margin: 0 auto;
+}
+
+@mixin clearfix {
+
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+
+@mixin link {
+
+    color:  $link-color;
+    font-size: $little-size;
+    font-weight: bold;
+    padding-left: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+}
+
+@mixin border{
+    padding: 20px 0 15px;
+    border-bottom: 1px solid $block-color;
+}
+
+@mixin image{
+
+    width: 9px;
+    position: $position-a;
+    left: 0;
+    top: 4px;
+}

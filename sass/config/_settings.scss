@@ -1,0 +1,62 @@
+@import '_variables.scss';
+@import '_mixin.scss';
+
+body{
+
+    @include cuerpo;
+}
+
+h2{
+
+    @include title-h2;
+}
+
+h3{
+
+    @include title-h3;
+}
+
+h2,h3{
+
+   @include titles;
+}
+
+p{
+    
+  @include paragraph;
+}
+/*Helpers*/
+
+.wrapper{
+    @include wrap;
+}
+
+.clearfix::after{
+
+    @include clearfix;
+}
+
+.block{
+
+    @include border;
+}
+
+.title-border{
+
+    border-bottom: 6px solid $title-color;
+}
+
+.link-arrow{
+
+    @include link;
+}
+
+.link-arrow:hover{
+
+    text-decoration: underline;
+}
+
+.link-img{
+
+    @include image;
+}

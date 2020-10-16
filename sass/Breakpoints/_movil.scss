@@ -1,0 +1,13 @@
+@media(max-width: 767px){
+    .box-img{
+        width: 100%;
+        padding: 0;
+        float: none;
+
+    }
+
+    .box-img + .box-img{
+        margin-top: 15px;
+    }
+
+}
