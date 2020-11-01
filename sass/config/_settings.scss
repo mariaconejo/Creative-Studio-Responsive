@@ -1,6 +1,11 @@
 @import '_variables.scss';
 @import '_mixin.scss';
 
+html{
+    font-size: 20px;
+}
+  
+
 body{
 
     @include cuerpo;

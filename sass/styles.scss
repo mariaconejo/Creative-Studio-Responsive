@@ -1,20 +1,22 @@
 /*CONFIG*/
 
-@import './config/_mixin.scss';
+@import'./config/normalize.scss';
 
-@import './config/_settings.scss';
+@import './config/mixin.scss';
 
-@import './config/_variables.scss';
+@import './config/settings.scss';
+
+@import './config/variables.scss';
 /* PARTIALS */
 
-@import './partial/_header.scss';
+@import './partial/header.scss';
 
-@import './partial/_main_content.scss';
+@import './partial/main_content.scss';
 
-@import './partial/_footer.scss';
+@import './partial/footer.scss';
 
 /*BREAKPOINTS*/
-@import'./Breakpoints/_tablet.scss';
+@import'./Breakpoints/tablet.scss';
 
-@import'./Breakpoints/_movil.scss';
+@import'./Breakpoints/movil.scss';
 
